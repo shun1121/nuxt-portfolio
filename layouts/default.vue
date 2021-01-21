@@ -123,4 +123,8 @@ export default {
     color: white;
     text-decoration: none;
   }
+
+  .v-application {
+  font-family:"Gill Sans", sans-serif;
+}
 </style>
