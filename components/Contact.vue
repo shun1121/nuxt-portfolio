@@ -2,9 +2,6 @@
   <div id="contact" style="background-color:#EFEFEF;">
     <v-container>
         <v-card width="100vw" height="750px">
-          <!-- <v-card-title class="justify-center font-italic display-1"> -->
-            <!-- Contact -->
-          <!-- </v-card-title> -->
           <iframe :src="src" width="100%" height="740px" frameborder="0" marginheight="0" marginwidth="0">
           </iframe> 
           

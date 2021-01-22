@@ -1,13 +1,13 @@
 <template>
   <div id="works" style="background-color:#EFEFEF;"> <!-- id="profile -->
-    <v-container>  <!-- fluidオプション　左右いっぱいに広げる -->
+    <v-container>  <!-- fluidオプション 左右いっぱいに広げる -->
       <v-card width="100vw" height="100%">
         <v-card-title class="font-italic justify-center display-1">
             Works
         </v-card-title>
         <v-row>
           <v-col v-for="work in works" :key="work" :cols="work.cols" :sm="work.sm" class="pa-10">
-            <a>
+            <a :href="work.url">
               <v-hover v-slot="{ hover }">
                 <v-card :elevation="hover ? 12 : 4" :class="{ 'on-hover' : hover }">
                   <v-img :src="work.picture" alt="flexsens" height="200px" class="align-end" gradient="to top right, rgba(160,155,255,.13), rgba(25,25,60,.4)"> <!-- class="align-end"は -->
@@ -34,6 +34,7 @@
             skills: 'Ruby on Rails',
             content: 'I implemented websocket so that log-in users can send messages without reloading.',
             picture: '/images/item-share.jpg',
+            url: 'https://cocky-cray-514bf4.netlify.app/',
             cols: 12, 
             sm: 6, 
             md: 6,
@@ -43,6 +44,7 @@
             skills: 'Ruby on Rails, Nuxt.js, AWS S3',
             content: 'I implemented websocket so so that log-in users can send messages without reloading.',
             picture: '/images/members.jpg',
+            url: 'https://cocky-cray-514bf4.netlify.app/',
             cols: 12, 
             sm: 6, 
             md: 6,
@@ -52,6 +54,7 @@
             skills: 'Nuxt.js',
             content: 'I implemented websocket so so that log-in users can send messages without reloading.',
             picture: '/images/ShuninNZ.jpg',
+            url: 'https://cocky-cray-514bf4.netlify.app/',
             cols: 12, 
             sm: 6, 
             md: 6,
