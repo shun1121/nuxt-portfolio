@@ -14,10 +14,10 @@
                       <v-timeline-item v-for="(event,i) in events" :key="i" fill-dot small :color="event.color"> <!-- class="pt-0" -->
                         <!-- <v-col cols="6"> -->
                           <v-card dense right>
-                            <v-card-title class="py-0 black--text" style="background:#87cefa;">
+                            <v-card-title class="py-2 black--text" style="background:#87cefa;">
                               {{event.title}}
                             </v-card-title>
-                            <v-card-text class="pt-4 pb-1" style="background-color:white; color:black;">
+                            <v-card-text class="pt-4 pb-4" style="background-color:white; color:black;">
                               {{event.content}}
                             </v-card-text>
                           </v-card>
@@ -39,15 +39,15 @@
       return {
         events: [
           {
-            title: 'Working on a different portfolio and doing job hunting',
+            title: 'Working on a different portfolio for job hunting',
             year: '2020',
-            content: 'enter Kwanseigakuin Uni buffolo buffolobuffolo buffoloenter Kwanseigakuin Uni buffolo buffolobuffolo buffolo',
+            content: 'I am brushing up my portfolio and doing job hunting to be a web engineer.',
             color: '#00008b'
           },
           {
             title: 'Joined Kobe Programming Academy',
             year: '2020',
-            content: 'I worked on tasks about algorithm using Node.js and passed a test to move on to the next step. Then, I started learning Ruby on Rails and Nuct.js to make an application.',
+            content: 'I worked on tasks about algorithm using Node.js and passed a test to move on to the next step. Then, I started learning Ruby on Rails and Nuxt.js to make an application.',
             color: 'light-blue'
           },
           {
@@ -59,7 +59,7 @@
           {
             title: 'Had an exchange program',
             year: '2019',
-            content: 'I studied at University of Canterbury in New Zealand. That experience was a huge impact to me.',
+            content: 'I studied at University of Canterbury in New Zealand. That experience was a huge impact on me.',
             color: 'green'
           },
           {

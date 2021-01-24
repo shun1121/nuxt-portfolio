@@ -20,7 +20,7 @@
                 <!-- <v-list-item-content> -->
                 <v-row> 
                   <v-col cols="1">
-                    <v-icon style="color:black;" >{{profile.icon}}</v-icon>
+                    <v-icon style="color:blue;" >{{profile.icon}}</v-icon>
                   </v-col>
                   <v-col cols="11">
                     <v-text class="title" style="color:black;">{{profile.info}}</v-text>
@@ -46,7 +46,7 @@
         {},
         {info: 'I am studying German literature at Kwanseigakuin University.', icon: 'mdi-hand-pointing-right'},
         {},
-        {info: 'I am also studying computer programing aside from it.', icon: 'mdi-hand-pointing-right'},
+        {info: 'I am also studying computer programing aside from my major.', icon: 'mdi-hand-pointing-right'},
         {},
         {info: 'I spend my free time watching anime, reading comic books, painting pictures, practicing gymnastics.', icon: 'mdi-hand-pointing-right'},
         {},
