@@ -77,5 +77,5 @@
         return this.$vuetify.breakpoint.smAndDown
       }
     }
-  }
+  } // 強調するところを描きたい。
 </script>

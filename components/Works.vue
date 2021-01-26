@@ -34,7 +34,7 @@
             skills: 'Ruby on Rails',
             content: 'I implemented websocket so that log-in users can send messages without reloading.',
             picture: '/images/item-share.jpg',
-            url: 'https://cocky-cray-514bf4.netlify.app/',
+            url: 'https://item-sharing-app.herokuapp.com/',
             cols: 12, 
             sm: 6, 
             md: 6,
