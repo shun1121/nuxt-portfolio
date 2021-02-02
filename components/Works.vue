@@ -44,7 +44,7 @@
             skills: 'Ruby on Rails, Nuxt.js, AWS S3',
             content: 'I implemented websocket so so that log-in users can send messages without reloading.',
             picture: '/images/members.jpg',
-            url: 'https://cocky-cray-514bf4.netlify.app/',
+            url: 'https://member-list-72a14.web.app/',
             cols: 12, 
             sm: 6, 
             md: 6,
